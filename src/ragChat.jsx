@@ -9,11 +9,11 @@ export default function RagChat() {
   const fileInputRef = useRef(null);
 
   const LANGUAGES = [
-    { code: "en", label: "English" },
-    { code: "hi", label: "Hindi" },
-    { code: "ml", label: "Malayalam" },
-    { code: "ta", label: "Tamil" },
-    { code: "fr", label: "French" },
+    { code: "english", label: "English" },
+    { code: "hindi", label: "Hindi" },
+    { code: "malayalam", label: "Malayalam" },
+    { code: "tamil", label: "Tamil" },
+    { code: "french", label: "French" },
   ];
 
   const handleFile = (f) => f && setFile(f);
